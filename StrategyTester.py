@@ -23,7 +23,7 @@ class StrategyTester():
         
         
     def __repr__(self):
-        return f"{self.strategy_name.upper} backtester(symbol = {self.symbol}, start = {self.start}, end = {self.end})"
+        return f"{self.strategy_name.upper} backtester(symbol = {self.symbol})"
     
     
  
